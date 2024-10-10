@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vita.weatherforecast"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:6:5-81
+11-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:6:22-78
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:7:5-67
+12-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:8:5-79
+13-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:9:5-79
+14-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:9:22-76
+15
+16    <permission
+16-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+17        android:name="com.vita.weatherforecast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.vita.weatherforecast.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:10:5-35:19
+23        android:name="com.vita.weatherforecast.WeatherApp"
+23-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:11:9-35
+24        android:allowBackup="true"
+24-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:12:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.13.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\9426b4035a1625146aa3946707540f69\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:13:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:14:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:15:9-43
+31        android:label="@string/app_name"
+31-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:16:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:17:9-54
+33        android:supportsRtl="true"
+33-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:18:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.WeatherForecast" >
+35-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:19:9-53
+36        <activity
+36-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:21:9-29:20
+37            android:name="com.vita.weatherforecast.presentation.screens.MainActivity"
+37-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:22:13-62
+38            android:exported="true" >
+38-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:23:13-36
+39            <intent-filter>
+39-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:24:13-28:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:25:17-69
+40-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:25:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:27:17-77
+42-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:27:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity
+45-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:30:9-34:52
+46            android:name="com.vita.weatherforecast.presentation.screens.WeatherForecastDetails"
+46-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:31:13-72
+47            android:exported="true"
+47-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:32:13-36
+48            android:launchMode="singleTop"
+48-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:33:13-43
+49            android:screenOrientation="portrait" />
+49-->E:\Vijay\Dubai assignment\app\src\main\AndroidManifest.xml:34:13-49
+50
+51        <service
+51-->[androidx.room:room-runtime:2.6.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\3e9fb9d9ca45a92478a27a338e0e6581\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+52            android:name="androidx.room.MultiInstanceInvalidationService"
+52-->[androidx.room:room-runtime:2.6.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\3e9fb9d9ca45a92478a27a338e0e6581\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+53            android:directBootAware="true"
+53-->[androidx.room:room-runtime:2.6.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\3e9fb9d9ca45a92478a27a338e0e6581\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+54            android:exported="false" />
+54-->[androidx.room:room-runtime:2.6.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\3e9fb9d9ca45a92478a27a338e0e6581\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.vita.weatherforecast.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Aishwarya\.gradle\caches\transforms-4\6ca5f50fdb8a5f8c363d107ac1875503\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Aishwarya\.gradle\caches\transforms-4\244b57793372eac3844e22c0666b8d42\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Aishwarya\.gradle\caches\transforms-4\244b57793372eac3844e22c0666b8d42\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\Aishwarya\.gradle\caches\transforms-4\244b57793372eac3844e22c0666b8d42\transformed\lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+69        </provider>
+70        <provider
+70-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aishwarya\.gradle\caches\transforms-4\796aa44bb7ebbecff7c84d896417b56e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+71            android:name="com.squareup.picasso.PicassoProvider"
+71-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aishwarya\.gradle\caches\transforms-4\796aa44bb7ebbecff7c84d896417b56e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+72            android:authorities="com.vita.weatherforecast.com.squareup.picasso"
+72-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aishwarya\.gradle\caches\transforms-4\796aa44bb7ebbecff7c84d896417b56e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+73            android:exported="false" />
+73-->[com.squareup.picasso:picasso:2.71828] C:\Users\Aishwarya\.gradle\caches\transforms-4\796aa44bb7ebbecff7c84d896417b56e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+74
+75        <receiver
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+77            android:directBootAware="false"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+78            android:enabled="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+79            android:exported="true"
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+80            android:permission="android.permission.DUMP" >
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+91-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Aishwarya\.gradle\caches\transforms-4\94d05f3f5b84bfbd297acc54e7c61a20\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+92            </intent-filter>
+93        </receiver>
+94    </application>
+95
+96</manifest>

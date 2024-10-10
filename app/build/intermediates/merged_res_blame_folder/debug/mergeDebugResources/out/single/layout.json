@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "com.vita.weatherforecast.app-mergeDebugResources-53:/layout/item_weather_hour_of_day.xml",
+        "source": "com.vita.weatherforecast.app-main-56:/layout/item_weather_hour_of_day.xml"
+    },
+    {
+        "merged": "com.vita.weatherforecast.app-mergeDebugResources-53:/layout/item_forecast.xml",
+        "source": "com.vita.weatherforecast.app-main-56:/layout/item_forecast.xml"
+    },
+    {
+        "merged": "com.vita.weatherforecast.app-mergeDebugResources-53:/layout/activity_main.xml",
+        "source": "com.vita.weatherforecast.app-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.vita.weatherforecast.app-mergeDebugResources-53:/layout/fragment_weather_detail.xml",
+        "source": "com.vita.weatherforecast.app-main-56:/layout/fragment_weather_detail.xml"
+    }
+]

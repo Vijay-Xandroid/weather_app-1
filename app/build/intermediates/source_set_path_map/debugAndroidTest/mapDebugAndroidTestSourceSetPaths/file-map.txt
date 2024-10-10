@@ -1,0 +1,5 @@
+com.vita.weatherforecast.test.app-core-1.6.1-0 C:\Users\Aishwarya\.gradle\caches\transforms-4\0fa53ba71efe3c9cb831a0897a0d39f7\transformed\core-1.6.1\res
+com.vita.weatherforecast.test.app-androidTest-1 E:\Vijay\Dubai assignment\app\build\generated\res\resValues\androidTest\debug
+com.vita.weatherforecast.test.app-mergeDebugAndroidTestResources-2 E:\Vijay\Dubai assignment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.vita.weatherforecast.test.app-mergeDebugAndroidTestResources-3 E:\Vijay\Dubai assignment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.vita.weatherforecast.test.app-debugAndroidTest-4 E:\Vijay\Dubai assignment\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
